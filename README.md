@@ -1,5 +1,4 @@
 # bash_course
-bladiebla
 
 Look at this beautiful sloth:
 ![alt text](https://github.com/EllenvdL/bash_course/blob/main/28SLOT-jumbo.jpg%3Fquality%3D75)
