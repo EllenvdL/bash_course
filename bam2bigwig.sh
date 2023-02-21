@@ -11,18 +11,14 @@ conda activate bam2bigwig
 #variables
 input_dir=$1
 output_dir=$2
-echo $input_dir
-echo $output_dir
 mkdir $output_dir
 cp $input_dir/*.bam $output_dir
 
 #create an empty file for log files
 log=bam2bigwig.log
-echo $log
 
 #convert bam files to bigwig files
 input_files=$(ls ${output_dir})
-echo $input_files
 cd $output_dir
 for file in ${input_files[@]}; do
 	#get the path to each input file and output directory
